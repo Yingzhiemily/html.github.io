@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+#box{
+    height: 926px;
+    display: grid;
+    grid-template-rows: 15% 1fr 15%;
+} 
+header{
+    background-color: #962EDB;
+    background-image: url(images/图片\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+header,footer,div{
+    width:428px;
+    margin: 0px auto;
+}
+footer{
+    background-color: #ebe460;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+h2{
+    text-align: center;
+}
+#main{
+    background-color: #65DBCA;
+    font-family: 'Inter', sans-serif;
+}
+#longtext{
+    width: 300px;
+    height: 100px;
+}
+a{
+    text-decoration: none;
+}

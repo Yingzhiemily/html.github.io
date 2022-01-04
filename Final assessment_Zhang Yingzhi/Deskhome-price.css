@@ -1,0 +1,116 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header,section,footer{
+    width: 1280px;
+    margin: 0px auto;
+    background-color: #962EDB;
+}
+section{
+    margin: 20px auto;
+    overflow: hidden;
+}
+section>div{
+    float:left;
+    background-color: #65DBCA;
+    height:1000px;
+}
+header,footer{
+    height: 80px;
+}
+.left{
+    width: 280px;
+}
+.right{
+    width: 980px;
+    margin-left: 20px;
+    font-size: 32px;
+}
+#logo {
+    position: absolute;
+    text-align: left;
+    height: 80px;
+    width: 100px;
+}
+header{
+    background-image: url(images/图片\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    vertical-align: middle;
+    font-family: 'Permanent Marker', cursive;
+    color: #f7ca59;
+    font-size: 60px;
+}
+footer{
+    background-color: #ebe460;
+    text-align: center;
+    line-height: 40px; 
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    line-height: 80px;
+    top:70px;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.box{
+    width: 85%;
+    margin: 0 auto;
+}
+.box>div{
+    height: 200px;
+    background-color: bisque;
+    float: left;
+    margin-bottom: 15px;
+    margin-right: 2%;
+}
+.box>div:nth-child(3n){
+    margin-right: 0;
+}
+img{
+    width: 100%;
+    height:100%;
+}
+p{
+    font-size: 18px;
+    line-height: 150%;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+table{
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+}
+@media screen and (min-width:1000px) {
+    .box>div{
+        width: 32%;
+        margin-right: 2%;
+    }
+    .box>div:nth-child(3n){
+        margin-right: 0;
+    }
+}
+@media screen and (min-width:750px) and (max-width:999px) {
+    .box>div{
+        width: 49%;
+    }
+    .box>div:nth-child(2n){
+        margin-left: 2%;
+    }
+}
+@media screen and (max-width:749px) {
+    .box>div{
+        width: 100%;
+    } 
+}

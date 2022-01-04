@@ -1,0 +1,59 @@
+body{
+    margin: 0px;
+    padding:0px;
+}
+#box{
+    height: 926px;
+    display: grid;
+    grid-template-rows: 15% 1fr 15%;
+} 
+header{
+    background-color: #962EDB;
+    background-image: url(images/图片\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+header,footer,div{
+    width:428px;
+    margin: 0px auto;
+}
+footer{
+    background-color: #ebe460;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+div{
+    background: url(images/fruit.png);
+}
+#logo {
+    position: absolute;
+    text-align:center;
+    height: 80px;
+    width: 100px;
+}
+@media screen and (min-width:900px) {
+    button{ 
+        position: absolute;
+        top: 55%;
+        left: 50%;
+    } 
+}
+@media screen and (min-width:600px) and (max-width:899px){
+    button{ 
+        position: absolute;
+        top:70%;
+        left:50%;
+    }
+}
+@media screen and (max-width:599px) {
+    button{ 
+        position: absolute;
+        top:90%;
+        left: 50%;
+    } 
+}
+a{
+    text-decoration: none;
+}

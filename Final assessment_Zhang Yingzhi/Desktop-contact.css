@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+header,section,footer{
+    width: 1280px;
+    margin: 0px auto;
+    background-color: #962EDB;
+}
+section{
+    margin: 20px auto;
+    overflow: hidden;
+}
+section>div{
+    float:left;
+    background-color: #65DBCA;
+    height:1000px;
+}
+header,footer{
+    height: 80px;
+}
+.left{
+    width: 280px;
+}
+.right{
+    width: 980px;
+    margin-left: 20px;
+    float: right;
+    font-family: 'Inter', sans-serif;
+}
+#logo {
+    position: absolute;
+    text-align: left;
+    height: 80px;
+    width: 100px;
+}
+header{
+    background-image: url(images/图片\ 1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    vertical-align:top;
+    font-family: 'Permanent Marker', cursive;
+    color: #f7ca59;
+    font-size: 60px;
+}
+footer{
+    background-color: #ebe460;
+    text-align: center;
+    line-height: 40px; 
+    font-size: 30px;
+    vertical-align: middle;
+    font-family: 'Inter', sans-serif;
+}
+nav{
+    line-height: 80px;
+    top:70px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Inter', sans-serif;
+}
+#longtext{
+    width: 400px;
+    height: 200px;
+}
+#button{
+    position: absolute;
+    left: 500px;
+    font-family: 'Inter', sans-serif;
+}
